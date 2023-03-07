@@ -1,0 +1,44 @@
+<html>
+
+    <head>
+        <title>Inicio de sesion</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="/css/styles.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-10 col-md-8 col-lg-6 mx-auto">
+                    <form class="login custom-form  shadow p-3">
+                        <h1 class="login__titulo text-center text-white"">Login</h1>
+                        <div class="login__usuario custom-form__group mb-3">
+                            <label class="login__usuario-label custom-form__label form-label text-white fs-6">Usuario</label>
+                            <input type="text" class="login__usuario-input custom-form__input form-control" placeholder="Ingresa usuario">
+                        </div>
+                        <div class="login__contrasena custom-form__group mb-3">    
+                            <label class="login__contrasena-label custom-form__label form-label text-white fs-6">Contraseña</label>
+                            <input type="password" class="login__contrasena-input custom-form__input form-control" placeholder="Ingresa contraseña">
+                        </div>
+                        <div class="login__recordar mb-3">
+                            <input class="login__recordar-input form-check-input" type="checkbox">
+                            <label class="login__recordar-label custom-form__label form-check-label text-white fs-6">Recordar usuario</label>
+                        </div>
+                        <div class="login__ingresar mb-3 text-center">
+                            <button class="login__ingresar-btn btn shadow" type="submit">Ingresar</button>
+                        </div>
+                        <div class="text-center lh-1">
+                            <p class="text-white fw-bold">¿Olvido el <a class="text-white" href="#">usuario o contraseña</a>?</p>
+                            <p class="text-white fw-bold">O</p>
+                            <p class="text-white fw-bold">¿No tienes una <a class="text-white" href="registro.html">cuenta</a>?</p>
+                        </div>
+                    </form>
+                </div>    
+            </div>
+        </div>
+    </body>
+</html>
